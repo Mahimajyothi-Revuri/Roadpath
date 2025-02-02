@@ -1,0 +1,69 @@
+.container {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+  
+  .user-pic {
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+  }
+  
+  .sub-menu-wrap {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 300px;
+    z-index: 1000;
+  }
+  
+  .sub-menu {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .user-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .sub-menu hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 10px 0;
+  }
+  
+  .sub-menu p {
+    margin: 10px 0;
+  }
+  
+  .sub-menu p a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .sub-menu p a:hover {
+    color: #007bff;
+  }
+  
+  .logout {
+    color: #d9534f;
+    cursor: pointer;
+  }
+  
+  .logout:hover {
+    color: #c9302c;
+  }

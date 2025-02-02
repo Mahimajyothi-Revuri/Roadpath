@@ -1,0 +1,53 @@
+h3 {
+    text-align: center;
+}
+
+.Jobs {
+    text-align: center;
+    list-style: none;
+}
+
+.text5 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.job-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.job-box {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .text5 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .job-box {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .job-box {
+        width: 90%;
+    }
+}
