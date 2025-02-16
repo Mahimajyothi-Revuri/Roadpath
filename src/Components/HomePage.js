@@ -68,7 +68,7 @@ function HomePage() {
                             <img src='assets/images/standard4.jpg' alt="" className='w-100' />
                         </div>
                         <p>Set your goal...</p>
-                        <h6><Link to="/read">Read more</Link></h6>
+                        <h6><Link to="/readmore">Read more</Link></h6>
                     </div>
                 </div>
             </main>

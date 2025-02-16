@@ -51,3 +51,33 @@ h3 {
         width: 90%;
     }
 }
+a {
+    text-decoration: none;  /* Removes underline */
+    color: black;  /* Sets text color to black */
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: black;  /* Ensures it stays black on hover */
+  }
+  
+  .actions-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Align vertically */
+    gap: 10px; /* Space between links */
+    margin-top: 10px;
+  }
+  
+  .small-action-link {
+    text-decoration: none; /* Remove underline */
+    color: rgb(90, 85, 233); /* Black text color */
+    font-size: 14px; /* Small font size */
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .small-action-link:hover {
+    color: rgb(143, 190, 196); /* Gray color on hover */
+  }
+  

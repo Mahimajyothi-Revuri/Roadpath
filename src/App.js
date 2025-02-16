@@ -5,6 +5,8 @@ import HomePage from './Components/HomePage';
 import IndustryPage from './Components/IndustryPage'; // Import the IndustryPage component
 import LoginForm from './Components/LoginForm';
 import ProfilePage from './Components/ProfilePage';
+import Reachgoal from './Components/Reachgoal';
+import Setgoal from './Components/Setgoal';
 import StandardPath from './Components/StandardPath';
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
         <Route path="/login" element={<LoginForm />} />
         <Route path='profile' element={<ProfilePage />} />
         <Route path="/industry/:value" element={<IndustryPage />} /> {/* Dynamic route for IndustryPage */}
+        <Route path='/read' element={<Reachgoal/>} />
+        <Route path='/readmore' element={<Setgoal/>} />
       </Routes>
     </Router>
   );
