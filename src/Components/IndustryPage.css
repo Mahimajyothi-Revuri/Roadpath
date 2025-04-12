@@ -1,28 +1,30 @@
+/* Headings */
 h3 {
     text-align: center;
-}
-
-.Jobs {
+  }
+  
+  /* Job Listings */
+  .Jobs {
     text-align: center;
     list-style: none;
-}
-
-.text5 {
+  }
+  
+  .text5 {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-}
-
-.job-boxes {
+  }
+  
+  .job-boxes {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
     padding: 10px;
-}
-
-.job-box {
+  }
+  
+  .job-box {
     background: #f0f0f0;
     border: 1px solid #ccc;
     padding: 10px;
@@ -31,53 +33,55 @@ h3 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 600px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
     .text5 {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
     }
-
+  
     .job-box {
-        width: 80%;
+      width: 80%;
     }
-}
-
-@media (max-width: 480px) {
+  }
+  
+  @media (max-width: 480px) {
     .job-box {
-        width: 90%;
+      width: 90%;
     }
-}
-a {
-    text-decoration: none;  /* Removes underline */
-    color: black;  /* Sets text color to black */
+  }
+  
+  /* Link Styling */
+  a {
+    text-decoration: none;
+    color: black;
   }
   
   a:hover {
     text-decoration: none;
-    color: black;  /* Ensures it stays black on hover */
+    color: black;
   }
   
+  /* Action Links */
   .actions-container {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Align vertically */
-    gap: 10px; /* Space between links */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     margin-top: 10px;
   }
   
   .small-action-link {
-    text-decoration: none; /* Remove underline */
-    color: rgb(90, 85, 233); /* Black text color */
-    font-size: 14px; /* Small font size */
+    text-decoration: none;
+    color: rgb(90, 85, 233);
+    font-size: 14px;
     font-weight: bold;
     cursor: pointer;
   }
   
   .small-action-link:hover {
-    color: rgb(143, 190, 196); /* Gray color on hover */
+    color: rgb(143, 190, 196);
   }
-  

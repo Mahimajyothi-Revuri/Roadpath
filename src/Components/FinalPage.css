@@ -1,0 +1,210 @@
+/* General styles for mobile view */
+.final-page {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #c5f6fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.logo {
+  color: #e64980;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul.open {
+  display: block;
+}
+
+.navbar-toggler {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  display: block;
+}
+
+.tab-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.tab-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab-btn {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 8px 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.tab-btn.active {
+  background-color: orange;
+  color: white;
+  border-color: orange;
+}
+
+.groups-section {
+  padding: 15px;
+}
+
+.groups-heading {
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.group-box,
+.group-line {
+  background-color: #d3d3d3;
+  padding: 8px 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.explore-section {
+  margin-bottom: 20px;
+}
+
+.explore-text {
+  color: orange;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.view-link {
+  color: blue;
+  margin-left: 5px;
+}
+
+.map-link {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px 0;
+}
+
+.nav-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #4caf50;
+  background-color: #e8f5e9;
+  color: #388e3c;
+  cursor: pointer;
+  width: 200px;
+  margin: 0 auto;
+  transition: background-color 0.2s ease;
+}
+
+.nav-button:hover {
+  background-color: #c8e6c9;
+}
+
+.footer {
+  background-color: #b2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer ul li {
+  font-size: 12px;
+}
+
+.selected {
+  background-color: #4caf50;
+  color: white;
+  border: 2px solid #388e3c;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  .menu ul {
+    flex-direction: column;
+    display: none;
+  }
+
+  .menu ul.open {
+    display: block;
+    width: 100%;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+
+  .logo {
+    font-size: 16px;
+  }
+
+  .tab-section {
+    padding: 10px 0;
+    font-size: 14px;
+  }
+
+  .tab-btn {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .button-section {
+    padding: 10px;
+  }
+
+  .nav-button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .footer ul {
+    flex-direction: column;
+  }
+
+  .footer ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
